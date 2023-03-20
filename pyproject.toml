@@ -1,0 +1,24 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = "KAU Machine Learning course labs"
+authors = [
+    {name = "Danylo Petrakivskyi", email = "danylopetrik@gmail.com"},
+]
+dependencies = [
+    "scikit-learn>=1.2.2",
+    "pandas>=1.5.3",
+    "seaborn>=0.12.2",
+    "jupyterlab>=3.6.2",
+    "ipywidgets>=8.0.4",
+    "jupyter-resource-usage>=0.7.2",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
