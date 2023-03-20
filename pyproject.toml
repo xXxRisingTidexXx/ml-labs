@@ -1,5 +1,3 @@
-[tool.pdm]
-
 [project]
 name = ""
 version = ""
@@ -22,3 +20,5 @@ license = {text = "GPL-3.0-or-later"}
 [build-system]
 requires = ["pdm-pep517>=1.0"]
 build-backend = "pdm.pep517.api"
+
+[tool.pdm]
