@@ -1,6 +1,6 @@
 venv
 .venv
-.pdm.toml
+.pdm-python
 .ipynb_checkpoints
 __pycache__
 notebooks/data
